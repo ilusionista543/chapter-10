@@ -6,7 +6,7 @@ RUN npm ci --omit=dev
 COPY ./src ./src
 COPY ./public ./public
 
-#Trigger
+#trigger
 
 CMD npx wait-port metadata:80 && \
     npx wait-port history:80 && \

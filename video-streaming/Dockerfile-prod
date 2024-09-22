@@ -6,6 +6,6 @@ RUN npm ci --omit=dev
 COPY ./src ./src
 
 
-#Trigger
+#trigger
 CMD npx wait-port rabbit:5672 && \
     npm start

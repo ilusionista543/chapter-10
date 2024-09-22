@@ -6,6 +6,5 @@ RUN npm ci --omit=dev
 COPY ./src ./src
 RUN mkdir ./storage
 
-#Trigger
-
+#trigger
 CMD npm start
